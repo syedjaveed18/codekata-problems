@@ -1,0 +1,7 @@
+n,m = map(int,input().split())
+array_1 = list(map(int,input().split()))
+array_2 = list(map(int,input().split()))
+array_1.sort()
+array_2.sort(reverse = True)
+final_array = " ".join([str(i) for i in array_1]) + " " + " ".join([str(i) for i in array_2])
+print(final_array)
