@@ -1,0 +1,6 @@
+n = int(input())
+array1 = list(map(int,input().split()))
+array2 = list(map(int,input().split()))
+array1.extend(array2)
+array1.sort()
+print(array1[n-1] + array1[n])
